@@ -1,0 +1,599 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ONES</RootNamespace>
+    <AssemblyName>ONES</AssemblyName>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="ClashDetectListviewForm.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="ColorFilterForm.resources" />
+    <None Remove="CopyFiltersForm.resources" />
+    <None Remove="ExportSchedules.resources" />
+  </ItemGroup>
+<ItemGroup>
+    <Reference Include="AdWindows">
+      <HintPath>C:\Program Files\Autodesk\Revit 2025\AdWindows.dll</HintPath>
+    </Reference>    <Reference Include="RevitAPI">
+      <HintPath>C:\Program Files\Autodesk\Revit 2025\RevitAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPIUI">
+      <HintPath>C:\Program Files\Autodesk\Revit 2025\RevitAPIUI.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitUIAPI">
+      <HintPath>C:\Program Files\Autodesk\Revit 2025\RevitUIAPI.dll</HintPath>
+    </Reference>  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutApp.cs" />
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlignBottom.cs" />
+    <Compile Include="AlignCenter.cs" />
+    <Compile Include="AlignLeft.cs" />
+    <Compile Include="AlignMiddle.cs" />
+    <Compile Include="AlignRight.cs" />
+    <Compile Include="AlignTop.cs" />
+    <Compile Include="AnalyticalDisable.cs" />
+    <Compile Include="AnalyticalEnable.cs" />
+    <Compile Include="App.cs" />
+    <Compile Include="CategoryComparer.cs" />
+    <Compile Include="ClashDetect.cs" />
+    <Compile Include="ClashDetectListviewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClashDetectListviewForm.Designer.cs">
+      <DependentUpon>ClashDetectListviewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClashDetectTreeview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClashDetectTreeview.Designer.cs">
+      <DependentUpon>ClashDetectTreeview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClashIsolate.cs" />
+    <Compile Include="CoffeeTime.cs" />
+    <Compile Include="CoffeeTimeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoffeeTimeForm.Designer.cs">
+      <DependentUpon>CoffeeTimeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ColorFilter.cs" />
+    <Compile Include="ColorFilterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColorFilterForm.Designer.cs">
+      <DependentUpon>ColorFilterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CopyFilters.cs" />
+    <Compile Include="CopyFiltersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CopyFiltersForm.Designer.cs">
+      <DependentUpon>CopyFiltersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CurveComparerX.cs" />
+    <Compile Include="CurveComparerY.cs" />
+    <Compile Include="DimensionGrids.cs" />
+    <Compile Include="ElementCurveComparerX.cs" />
+    <Compile Include="ElementCurveComparerY.cs" />
+    <Compile Include="ElementIdComparer.cs" />
+    <Compile Include="Empty.cs" />
+    <Compile Include="ExportActiveSchedule.cs" />
+    <Compile Include="ExportAllLayers.cs" />
+    <Compile Include="ExportAllSchedules.cs" />
+    <Compile Include="ExportCeilingLayers.cs" />
+    <Compile Include="ExportFloorLayers.cs" />
+    <Compile Include="ExportMaterials.cs" />
+    <Compile Include="ExportSchedules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExportSchedules.Designer.cs">
+      <DependentUpon>ExportSchedules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExportWallLayers.cs" />
+    <Compile Include="FamilyChange.cs" />
+    <Compile Include="FamilyChangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FamilyChangeForm.Designer.cs">
+      <DependentUpon>FamilyChangeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FamilyFilter.cs" />
+    <Compile Include="FamilyFilterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FamilyFilterForm.Designer.cs">
+      <DependentUpon>FamilyFilterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilterLegend.cs" />
+    <Compile Include="FilterLegendForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilterLegendForm.Designer.cs">
+      <DependentUpon>FilterLegendForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilterRevit.cs" />
+    <Compile Include="FilterRevitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilterRevitForm.Designer.cs">
+      <DependentUpon>FilterRevitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FloorbyRoom.cs" />
+    <Compile Include="GlobVars.cs" />
+    <Compile Include="GridComparer.cs" />
+    <Compile Include="HealthCheck.cs" />
+    <Compile Include="HealthCheckForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HealthCheckForm.Designer.cs">
+      <DependentUpon>HealthCheckForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HealthCheckFormOld.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HealthCheckFormOld.Designer.cs">
+      <DependentUpon>HealthCheckFormOld.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Help.cs" />
+    <Compile Include="HideOwnedElements.cs" />
+    <Compile Include="InspectElement.cs" />
+    <Compile Include="IsolateUnpinned.cs" />
+    <Compile Include="JoinElements.cs" />
+    <Compile Include="JoinElements2.cs" />
+    <Compile Include="JoinElementsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JoinElementsForm.Designer.cs">
+      <DependentUpon>JoinElementsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LangButtonsEN.cs" />
+    <Compile Include="LayerFilter.cs" />
+    <Compile Include="LayerFilterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LayerFilterForm.Designer.cs">
+      <DependentUpon>LayerFilterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LinkSelectType.cs" />
+    <Compile Include="LoadOpts.cs" />
+    <Compile Include="LocalFile.cs" />
+    <Compile Include="LogElement.cs" />
+    <Compile Include="LogElementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogElementForm.Designer.cs">
+      <DependentUpon>LogElementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogProject.cs" />
+    <Compile Include="LogProjectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogProjectForm.Designer.cs">
+      <DependentUpon>LogProjectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaterialQuantity.cs" />
+    <Compile Include="MClear.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\AppEvents.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\AppEvents_Event.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\Application.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\DocEvents.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\DocEvents_Event.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\Font.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\Range.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\Sheets.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\Workbook.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\WorkbookEvents.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\WorkbookEvents_Event.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\Workbooks.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\Worksheet.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\_Application.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\_Workbook.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\_Worksheet.cs" />
+    <Compile Include="MMinus.cs" />
+    <Compile Include="ModelReport.cs" />
+    <Compile Include="ModelSize.cs" />
+    <Compile Include="MPlus.cs" />
+    <Compile Include="MRead.cs" />
+    <Compile Include="Notepad.cs" />
+    <Compile Include="ONES_Compound.cs" />
+    <Compile Include="ONES_KeyToLayer.cs" />
+    <Compile Include="ONES_Layer.cs" />
+    <Compile Include="OnlineUsers.cs" />
+    <Compile Include="OverrideBlue.cs" />
+    <Compile Include="OverrideGreen.cs" />
+    <Compile Include="OverrideNone.cs" />
+    <Compile Include="OverrideRandom.cs" />
+    <Compile Include="OverrideRed.cs" />
+    <Compile Include="OverrideSettings.cs" />
+    <Compile Include="OverrideSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OverrideSettingsForm.Designer.cs">
+      <DependentUpon>OverrideSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OverrideYellow.cs" />
+    <Compile Include="ParameterIdComparer.cs" />
+    <Compile Include="ParameterNameComparer.cs" />
+    <Compile Include="ParametersElementId.cs" />
+    <Compile Include="ParametersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParametersForm.Designer.cs">
+      <DependentUpon>ParametersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pin.cs" />
+    <Compile Include="ProgressBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressBar.Designer.cs">
+      <DependentUpon>ProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="PurgeCAD.cs" />
+    <Compile Include="PurgeFilters.cs" />
+    <Compile Include="PurgeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurgeForm.Designer.cs">
+      <DependentUpon>PurgeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PurgeTags.cs" />
+    <Compile Include="RemoveFilters.cs" />
+    <Compile Include="ResetOverride.cs" />
+    <Compile Include="ResourceCommon.cs" />
+    <Compile Include="Section.cs" />
+    <Compile Include="SectionBoxDecrease.cs" />
+    <Compile Include="SectionBoxGrids.cs" />
+    <Compile Include="SectionBoxIncrease.cs" />
+    <Compile Include="SectionBoxLevels.cs" />
+    <Compile Include="SelectCategory.cs" />
+    <Compile Include="SelectColor.cs" />
+    <Compile Include="SelectFamily.cs" />
+    <Compile Include="SelectFilter.cs" />
+    <Compile Include="SelectFilterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectFilterForm.Designer.cs">
+      <DependentUpon>SelectFilterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectFilterForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectFilterForm2.Designer.cs">
+      <DependentUpon>SelectFilterForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectIntersectingElements.cs" />
+    <Compile Include="SelectOwned.cs" />
+    <Compile Include="SelectType.cs" />
+    <Compile Include="Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsONES.cs" />
+    <Compile Include="SlabSlope.cs" />
+    <Compile Include="Test.cs" />
+    <Compile Include="Test2.cs" />
+    <Compile Include="Test3.cs" />
+    <Compile Include="TestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestForm.Designer.cs">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Timeliner.cs" />
+    <Compile Include="TimelinerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimelinerForm.Designer.cs">
+      <DependentUpon>TimelinerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TypeFilter.cs" />
+    <Compile Include="TypeFilterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TypeFilterForm.Designer.cs">
+      <DependentUpon>TypeFilterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TypesDoors.cs" />
+    <Compile Include="TypeSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TypeSelector.Designer.cs">
+      <DependentUpon>TypeSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TypesFloors.cs" />
+    <Compile Include="TypesWalls.cs" />
+    <Compile Include="TypesWindows.cs" />
+    <Compile Include="Unhide.cs" />
+    <Compile Include="Unjoin.cs" />
+    <Compile Include="Update.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="UtilsClass.cs" />
+    <Compile Include="WarningManager.cs" />
+    <Compile Include="WarningManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WarningManagerForm.Designer.cs">
+      <DependentUpon>WarningManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WarningsCount.cs" />
+    <Compile Include="WarningsExport.cs" />
+    <Compile Include="WarningsIsolate.cs" />
+    <Compile Include="WarningsIsolateUser.cs" />
+    <Compile Include="WarningsUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WarningsUserForm.Designer.cs">
+      <DependentUpon>WarningsUserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WhoDid.cs" />
+    <Compile Include="WinCalc.cs" />
+    <Compile Include="ZoomElements.cs" />
+    <Compile Include="βDisplaceEarthquake.cs" />
+    <Compile Include="βDisplaceElement.cs" />
+    <Compile Include="βDisplaceSubComponents.cs" />
+    <Compile Include="βGravityCenter.cs" />
+    <Compile Include="βProceduralCity.cs" />
+    <Compile Include="βProceduralTerrain.cs" />
+    <Compile Include="βProceduralTerrainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="βProceduralTerrainForm.Designer.cs">
+      <DependentUpon>βProceduralTerrainForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutBox1.resources" />
+    <EmbeddedResource Include="ClashDetectListviewForm.resources" />
+    <EmbeddedResource Include="ClashDetectTreeview.resources" />
+    <EmbeddedResource Include="CoffeeTimeForm.resources" />
+    <EmbeddedResource Include="FamilyChangeForm.resources" />
+    <EmbeddedResource Include="FamilyFilterForm.resources" />
+    <EmbeddedResource Include="FilterLegendForm.resources" />
+    <EmbeddedResource Include="FilterRevitForm.resources" />
+    <EmbeddedResource Include="HealthCheckForm.resources" />
+    <EmbeddedResource Include="HealthCheckFormOld.resources" />
+    <EmbeddedResource Include="JoinElementsForm.resources" />
+    <EmbeddedResource Include="LangButtonsEN.resources" />
+    <EmbeddedResource Include="LayerFilterForm.resources" />
+    <EmbeddedResource Include="LogElementForm.resources" />
+    <EmbeddedResource Include="LogProjectForm.resources" />
+    <EmbeddedResource Include="OverrideSettingsForm.resources" />
+    <EmbeddedResource Include="ParametersForm.resources" />
+    <EmbeddedResource Include="ProgressBar.resources" />
+    <EmbeddedResource Include="Properties\Resources.resources" />
+    <EmbeddedResource Include="PurgeForm.resources" />
+    <EmbeddedResource Include="ResourceCommon.resources" />
+    <EmbeddedResource Include="SelectFilterForm.resources" />
+    <EmbeddedResource Include="SelectFilterForm2.resources" />
+    <EmbeddedResource Include="SettingsForm.resources" />
+    <EmbeddedResource Include="TestForm.resources" />
+    <EmbeddedResource Include="TimelinerForm.resources" />
+    <EmbeddedResource Include="TypeFilterForm.resources" />
+    <EmbeddedResource Include="TypeSelector.resources" />
+    <EmbeddedResource Include="WarningManagerForm.resources" />
+    <EmbeddedResource Include="WarningsUserForm.resources" />
+    <EmbeddedResource Include="βProceduralTerrainForm.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons\about16.png" />
+    <Resource Include="icons\aboutapp.png" />
+    <Resource Include="icons\addid.png" />
+    <Resource Include="icons\alignbottom16.png" />
+    <Resource Include="icons\aligncenter16.png" />
+    <Resource Include="icons\alignleft16.png" />
+    <Resource Include="icons\alignmiddle16.png" />
+    <Resource Include="icons\alignright16.png" />
+    <Resource Include="icons\aligntop16.png" />
+    <Resource Include="icons\building.png" />
+    <Resource Include="icons\building16.png" />
+    <Resource Include="icons\cad.png" />
+    <Resource Include="icons\cad16.png" />
+    <Resource Include="icons\calculate.png" />
+    <Resource Include="icons\calculate16.png" />
+    <Resource Include="icons\ceiling.png" />
+    <Resource Include="icons\ceilinggenerate.png" />
+    <Resource Include="icons\change.png" />
+    <Resource Include="icons\change16.png" />
+    <Resource Include="icons\checkall16.png" />
+    <Resource Include="icons\clash.png" />
+    <Resource Include="icons\clash16.png" />
+    <Resource Include="icons\coffee.png" />
+    <Resource Include="icons\coffee16.png" />
+    <Resource Include="icons\collapse.png" />
+    <Resource Include="icons\collapse16.png" />
+    <Resource Include="icons\colorfilter.png" />
+    <Resource Include="icons\colorfilter16.png" />
+    <Resource Include="icons\copyfilter.png" />
+    <Resource Include="icons\copyfilter16.png" />
+    <Resource Include="icons\databaseadd.png" />
+    <Resource Include="icons\databasecheck.png" />
+    <Resource Include="icons\deselect_all.png" />
+    <Resource Include="icons\dimension.png" />
+    <Resource Include="icons\dimension16.png" />
+    <Resource Include="icons\dog.png" />
+    <Resource Include="icons\door.png" />
+    <Resource Include="icons\door16.png" />
+    <Resource Include="icons\excel.png" />
+    <Resource Include="icons\expand.png" />
+    <Resource Include="icons\expand16.png" />
+    <Resource Include="icons\exportlayers.png" />
+    <Resource Include="icons\exportlayers16.png" />
+    <Resource Include="icons\exportschedules.png" />
+    <Resource Include="icons\exportschedules16.png" />
+    <Resource Include="icons\filter.png" />
+    <Resource Include="icons\filter16.png" />
+    <Resource Include="icons\filterplus.png" />
+    <Resource Include="icons\filterplus16.png" />
+    <Resource Include="icons\filterremove.png" />
+    <Resource Include="icons\filterremove16.png" />
+    <Resource Include="icons\floor.png" />
+    <Resource Include="icons\floor16.png" />
+    <Resource Include="icons\floorgenerate.png" />
+    <Resource Include="icons\floorgenerate16.png" />
+    <Resource Include="icons\folder.png" />
+    <Resource Include="icons\folder16.png" />
+    <Resource Include="icons\form.png" />
+    <Resource Include="icons\healthcheck.png" />
+    <Resource Include="icons\healthcheck16.png" />
+    <Resource Include="icons\helmet.png" />
+    <Resource Include="icons\help.png" />
+    <Resource Include="icons\help16.png" />
+    <Resource Include="icons\hideownedelements.png" />
+    <Resource Include="icons\hideownedelements16.png" />
+    <Resource Include="icons\id.png" />
+    <Resource Include="icons\inspect16.png" />
+    <Resource Include="icons\inspectelements.png" />
+    <Resource Include="icons\join.png" />
+    <Resource Include="icons\join16.png" />
+    <Resource Include="icons\lightoff.png" />
+    <Resource Include="icons\lightoff16.png" />
+    <Resource Include="icons\lighton.png" />
+    <Resource Include="icons\lighton16.png" />
+    <Resource Include="icons\logreport.png" />
+    <Resource Include="icons\logreport16.png" />
+    <Resource Include="icons\mclear16.png" />
+    <Resource Include="icons\mclear24.png" />
+    <Resource Include="icons\misc.png" />
+    <Resource Include="icons\mminus16.png" />
+    <Resource Include="icons\mminus24.png" />
+    <Resource Include="icons\modelsize.png" />
+    <Resource Include="icons\modelsize16.png" />
+    <Resource Include="icons\mplus16.png" />
+    <Resource Include="icons\mplus24.png" />
+    <Resource Include="icons\mread16.png" />
+    <Resource Include="icons\mread24.png" />
+    <Resource Include="icons\notepad.png" />
+    <Resource Include="icons\notepad16.png" />
+    <Resource Include="icons\onlineusers.png" />
+    <Resource Include="icons\onlineusers16.png" />
+    <Resource Include="icons\overrideblue16.png" />
+    <Resource Include="icons\overridegray16.png" />
+    <Resource Include="icons\overridegreen16.png" />
+    <Resource Include="icons\overriderainbow16.png" />
+    <Resource Include="icons\overridered16.png" />
+    <Resource Include="icons\overrideyellow16.png" />
+    <Resource Include="icons\pin.png" />
+    <Resource Include="icons\pin16.png" />
+    <Resource Include="icons\reset.png" />
+    <Resource Include="icons\reset16.png" />
+    <Resource Include="icons\section.png" />
+    <Resource Include="icons\section16.png" />
+    <Resource Include="icons\select.png" />
+    <Resource Include="icons\select16.png" />
+    <Resource Include="icons\selectowned16.png" />
+    <Resource Include="icons\select_all.png" />
+    <Resource Include="icons\settings.png" />
+    <Resource Include="icons\settings16.png" />
+    <Resource Include="icons\sharingan.png" />
+    <Resource Include="icons\sheet.png" />
+    <Resource Include="icons\sheet16.png" />
+    <Resource Include="icons\sheetdouble.png" />
+    <Resource Include="icons\sheetdouble16.png" />
+    <Resource Include="icons\tag.png" />
+    <Resource Include="icons\tag16.png" />
+    <Resource Include="icons\tools.png" />
+    <Resource Include="icons\tools16.png" />
+    <Resource Include="icons\uncheckall16.png" />
+    <Resource Include="icons\unhide.png" />
+    <Resource Include="icons\unhide16.png" />
+    <Resource Include="icons\unjoin.png" />
+    <Resource Include="icons\unjoin16.png" />
+    <Resource Include="icons\unpin.png" />
+    <Resource Include="icons\unpin16.png" />
+    <Resource Include="icons\update16.png" />
+    <Resource Include="icons\updatenew16.png" />
+    <Resource Include="icons\view.png" />
+    <Resource Include="icons\wall.png" />
+    <Resource Include="icons\wall16.png" />
+    <Resource Include="icons\wallgenerate.png" />
+    <Resource Include="icons\warnings.png" />
+    <Resource Include="icons\warnings16.png" />
+    <Resource Include="icons\whodid.png" />
+    <Resource Include="icons\whodid16.png" />
+    <Resource Include="icons\wincalc.png" />
+    <Resource Include="icons\wincalc16.png" />
+    <Resource Include="icons\window.png" />
+    <Resource Include="icons\window16.png" />
+    <Resource Include="icons\worksharing.png" />
+    <Resource Include="icons\worksharing16.png" />
+    <Resource Include="icons\zoomelements.png" />
+    <Resource Include="icons\zoomelements16.png" />
+    <Resource Include="toolbarimage\clashdetection.png" />
+    <Resource Include="toolbarimage\coffeetime.png" />
+    <Resource Include="toolbarimage\colorfilter.png" />
+    <Resource Include="toolbarimage\copyfilter.png" />
+    <Resource Include="toolbarimage\floorbyroom.png" />
+    <Resource Include="toolbarimage\healthcheck.png" />
+    <Resource Include="toolbarimage\join.png" />
+    <Resource Include="toolbarimage\logreport.png" />
+    <Resource Include="toolbarimage\modelsize.png" />
+    <Resource Include="toolbarimage\override.png" />
+    <Resource Include="toolbarimage\overridereset.png" />
+    <Resource Include="toolbarimage\purgecad.png" />
+    <Resource Include="toolbarimage\purgefilter.png" />
+    <Resource Include="toolbarimage\purgetags.png" />
+    <Resource Include="toolbarimage\removefilters.png" />
+    <Resource Include="toolbarimage\section.png" />
+    <Resource Include="toolbarimage\selectcategory.png" />
+    <Resource Include="toolbarimage\selectfilter.png" />
+    <Resource Include="toolbarimage\selectintersects.png" />
+    <Resource Include="toolbarimage\selecttype.png" />
+    <Resource Include="toolbarimage\settings.png" />
+    <Resource Include="toolbarimage\typesdoors.png" />
+    <Resource Include="toolbarimage\typeswindows.png" />
+    <Resource Include="toolbarimage\typewalls.png" />
+    <Resource Include="toolbarimage\whodid.png" />
+    <Resource Include="toolbarimage\zoomelements.png" />
+  </ItemGroup>
+</Project>
+
+

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>ONES</Name>
+    <Assembly>ONES.dll</Assembly>
+    <FullClassName>ONES.App</FullClassName>
+    <ClientId>5458198b-e69f-46a4-b930-1d7e6d8458aa</ClientId>
+    <VendorId>esen.onur</VendorId>
+    <VendorDescription>Onur ESEN</VendorDescription>
+  </AddIn>
+</RevitAddIns>

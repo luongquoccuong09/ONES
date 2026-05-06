@@ -1,0 +1,777 @@
+=== CLEANUP LOG ===
+
+[File] D:\01. ADDIN\ONES\ONES\AboutApp.cs
+Line 23:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\AlignBottom.cs
+Line 67:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\AlignCenter.cs
+Line 71:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\AlignLeft.cs
+Line 67:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\AlignMiddle.cs
+Line 71:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\AlignRight.cs
+Line 70:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\AlignTop.cs
+Line 83:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\AnalyticalDisable.cs
+Line 58:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\AnalyticalEnable.cs
+Line 58:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\App.cs
+Line 979:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\App.cs
+Line 1014:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ClashDetect.cs
+Line 34:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ClashIsolate.cs
+Line 56:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\CoffeeTime.cs
+Line 103:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ColorFilter.cs
+Line 26:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\CopyFilters.cs
+Line 27:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\CopyFilters.cs
+Line 34:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\DimensionGrids.cs
+Line 136:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\Empty.cs
+Line 29:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\Empty.cs
+Line 37:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\Empty.cs
+Line 43:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ExportActiveSchedule.cs
+Line 25:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ExportActiveSchedule.cs
+Line 66:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ExportAllLayers.cs
+Line 42:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ExportAllLayers.cs
+Line 103:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ExportAllSchedules.cs
+Line 28:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ExportCeilingLayers.cs
+Line 49:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ExportCeilingLayers.cs
+Line 102:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ExportCeilingLayers.cs
+Line 118:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ExportCeilingLayers.cs
+Line 128:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ExportFloorLayers.cs
+Line 49:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ExportFloorLayers.cs
+Line 102:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ExportFloorLayers.cs
+Line 118:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ExportFloorLayers.cs
+Line 128:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ExportMaterials.cs
+Line 53:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ExportWallLayers.cs
+Line 47:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ExportWallLayers.cs
+Line 100:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ExportWallLayers.cs
+Line 116:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ExportWallLayers.cs
+Line 126:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\FamilyChange.cs
+Line 33:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\FamilyChange.cs
+Line 39:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\FamilyChange.cs
+Line 46:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\FamilyChange.cs
+Line 51:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\FamilyFilter.cs
+Line 32:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\FilterLegend.cs
+Line 29:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\FilterRevit.cs
+Line 24:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\FloorbyRoom.cs
+Line 41:
+BEFORE: return 1;
+AFTER : return Result.Cancelled;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\FloorbyRoom.cs
+Line 46:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\FloorbyRoom.cs
+Line 90:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\HealthCheck.cs
+Line 25:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\Help.cs
+Line 40:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\HideOwnedElements.cs
+Line 50:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\InspectElement.cs
+Line 29:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\InspectElement.cs
+Line 37:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\InspectElement.cs
+Line 116:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\InspectElement.cs
+Line 121:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\IsolateUnpinned.cs
+Line 46:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\JoinElements.cs
+Line 28:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\JoinElements2.cs
+Line 107:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\LayerFilter.cs
+Line 25:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\LinkSelectType.cs
+Line 35:
+BEFORE: return 1;
+AFTER : return Result.Cancelled;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\LinkSelectType.cs
+Line 95:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\LocalFile.cs
+Line 29:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\LogElement.cs
+Line 29:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\LogProject.cs
+Line 25:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\LogProject.cs
+Line 32:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\MaterialQuantity.cs
+Line 36:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\MaterialQuantity.cs
+Line 116:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\MClear.cs
+Line 37:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\MMinus.cs
+Line 53:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ModelReport.cs
+Line 34:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ModelReport.cs
+Line 42:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ModelReport.cs
+Line 50:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ModelReport.cs
+Line 69:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ModelSize.cs
+Line 30:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\MPlus.cs
+Line 47:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\MRead.cs
+Line 52:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\Notepad.cs
+Line 21:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\OnlineUsers.cs
+Line 44:
+BEFORE: return 1;
+AFTER : return Result.Cancelled;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\OnlineUsers.cs
+Line 56:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\OverrideBlue.cs
+Line 31:
+BEFORE: return 1;
+AFTER : return Result.Cancelled;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\OverrideBlue.cs
+Line 56:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\OverrideGreen.cs
+Line 31:
+BEFORE: return 1;
+AFTER : return Result.Cancelled;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\OverrideGreen.cs
+Line 56:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\OverrideNone.cs
+Line 31:
+BEFORE: return 1;
+AFTER : return Result.Cancelled;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\OverrideNone.cs
+Line 55:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\OverrideRandom.cs
+Line 32:
+BEFORE: return 1;
+AFTER : return Result.Cancelled;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\OverrideRandom.cs
+Line 80:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\OverrideRed.cs
+Line 31:
+BEFORE: return 1;
+AFTER : return Result.Cancelled;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\OverrideRed.cs
+Line 56:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\OverrideSettings.cs
+Line 29:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\OverrideYellow.cs
+Line 31:
+BEFORE: return 1;
+AFTER : return Result.Cancelled;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\OverrideYellow.cs
+Line 56:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ParametersElementId.cs
+Line 31:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\Pin.cs
+Line 56:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\PurgeCAD.cs
+Line 35:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\PurgeFilters.cs
+Line 50:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\PurgeTags.cs
+Line 39:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\RemoveFilters.cs
+Line 37:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ResetOverride.cs
+Line 43:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\Section.cs
+Line 100:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\SectionBoxDecrease.cs
+Line 41:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\SectionBoxDecrease.cs
+Line 53:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\SectionBoxGrids.cs
+Line 96:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\SectionBoxIncrease.cs
+Line 41:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\SectionBoxIncrease.cs
+Line 46:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\SectionBoxLevels.cs
+Line 55:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\SelectCategory.cs
+Line 73:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\SelectColor.cs
+Line 72:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\SelectFamily.cs
+Line 31:
+BEFORE: return 1;
+AFTER : return Result.Cancelled;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\SelectFamily.cs
+Line 69:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\SelectFilter.cs
+Line 36:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\SelectIntersectingElements.cs
+Line 31:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\SelectIntersectingElements.cs
+Line 39:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\SelectIntersectingElements.cs
+Line 62:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\SelectOwned.cs
+Line 37:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\SelectType.cs
+Line 31:
+BEFORE: return 1;
+AFTER : return Result.Cancelled;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\SelectType.cs
+Line 74:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\SettingsONES.cs
+Line 28:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\SlabSlope.cs
+Line 31:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\SlabSlope.cs
+Line 39:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\SlabSlope.cs
+Line 56:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\Test.cs
+Line 61:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\Test2.cs
+Line 75:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\Test3.cs
+Line 32:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\Test3.cs
+Line 40:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\Test3.cs
+Line 48:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\Timeliner.cs
+Line 47:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\TypeFilter.cs
+Line 32:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\TypesDoors.cs
+Line 101:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\TypesFloors.cs
+Line 32:
+BEFORE: return 1;
+AFTER : return Result.Cancelled;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\TypesFloors.cs
+Line 75:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\TypesWalls.cs
+Line 32:
+BEFORE: return 1;
+AFTER : return Result.Cancelled;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\TypesWalls.cs
+Line 70:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\TypesWindows.cs
+Line 103:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\Unhide.cs
+Line 32:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\Unhide.cs
+Line 63:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\Unjoin.cs
+Line 59:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\Update.cs
+Line 46:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\WarningManager.cs
+Line 25:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\WarningsCount.cs
+Line 74:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\WarningsExport.cs
+Line 75:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\WarningsIsolate.cs
+Line 43:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\WarningsIsolateUser.cs
+Line 26:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\WhoDid.cs
+Line 28:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\WhoDid.cs
+Line 36:
+BEFORE: return -1;
+AFTER : return Result.Failed;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\WhoDid.cs
+Line 48:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\WinCalc.cs
+Line 21:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\ZoomElements.cs
+Line 46:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\βDisplaceEarthquake.cs
+Line 53:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\βDisplaceElement.cs
+Line 53:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\βDisplaceSubComponents.cs
+Line 48:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\βGravityCenter.cs
+Line 84:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\βProceduralCity.cs
+Line 54:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------
+[File] D:\01. ADDIN\ONES\ONES\βProceduralTerrain.cs
+Line 29:
+BEFORE: return 0;
+AFTER : return Result.Succeeded;
+----------------------------------------

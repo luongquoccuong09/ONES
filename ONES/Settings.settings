@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile CurrentProfile="(Default)" GeneratedClassNamespace="ONES" GeneratedClassName="Settings" xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LogsFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\\ProgramData\\Autodesk\\Revit\\Addins\\Logs.txt</Value>
+    </Setting>
+    <Setting Name="folderONES" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\133.129.22.205\bim_installer\_Revit_2021\その他必要に応じて\社内試行RevitAddin1（ONES）\</Value>
+    </Setting>
+    <Setting Name="ONESLogsOnOff" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ONESLogsFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\obyfs01\09IPD\02_プロジェクト関連\11東京\0065_Sビル\Logs\\ONESLogs.txt</Value>
+    </Setting>
+    <Setting Name="ONESUsage" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ONESdll" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\133.129.22.205\bim_installer\_Revit_2021\その他必要に応じて\社内試行RevitAddin1（ONES）\ONES.dll</Value>
+    </Setting>
+    <Setting Name="LogsFileServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\obyfs01\09IPD\02_プロジェクト関連\11東京\0065_Sビル\\Logs\\Logs.txt</Value>
+    </Setting>
+    <Setting Name="LogsFileDefault" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\\ProgramData\\Autodesk\\Revit\\Addins\\Logs.txt</Value>
+    </Setting>
+    <Setting Name="folderONESDefault" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\133.129.22.205\bim_installer\_Revit_2021\その他必要に応じて\社内試行RevitAddin1（ONES）\</Value>
+    </Setting>
+    <Setting Name="OverrideLine" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="OverrideSurface" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="OverrideNest" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="OverrideHalftone" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="OverrideCut" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="OverrideTransparency" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="LogsFileFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\\ProgramData\\Autodesk\\Revit\\Addins\\onesLogs\\</Value>
+    </Setting>
+    <Setting Name="Language" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Default</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
